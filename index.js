@@ -5,6 +5,6 @@ app.listen(5001, () => {
   console.log("backend server run on port ");
 });
 
-app.get("/", (req, res) => {
+app.get("/hello", (req, res) => {
   res.send("hello world");
 });
