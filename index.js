@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.send("<h1>hello word</h1>");
 });
 
-app.get("/", (req, res) => {
+app.get("/users", (req, res) => {
   res.json({
     user: "maka",
     age: 24,
