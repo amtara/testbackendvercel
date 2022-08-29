@@ -6,7 +6,24 @@ app.listen(5001, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("hello world");
+  res.send(user);
+  const user = [
+    {
+      user: 1,
+      age: 2,
+      personnage: "maka",
+    },
+    {
+      user: 12,
+      age: 2,
+      personnage: "amir",
+    },
+    {
+      user: 13,
+      age: 2,
+      personnage: "lolilo",
+    },
+  ];
 });
 app.get("/users", (req, res) => {
   res.send("hello world user");
