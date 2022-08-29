@@ -10,5 +10,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("<h1>hello users</h1>");
+  res.send({
+    user: "maka",
+    age: 24,
+  });
 });
