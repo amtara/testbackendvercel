@@ -9,7 +9,7 @@
     {
      
       "src": "/users",
-      "dest": "/", 
+      "dest": "/index.js", 
       "method":[ "GET"]
     }
   ]
