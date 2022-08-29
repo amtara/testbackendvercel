@@ -8,4 +8,11 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/lists", (req, res) => {
+  res.json({
+    user: "list",
+    age: 24,
+  });
+});
+
 module.exports = router;
