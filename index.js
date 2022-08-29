@@ -8,3 +8,7 @@ app.listen(5001, () => {
 app.get("/", (req, res) => {
   res.send("<h1>hello word</h1>");
 });
+
+app.get("/", (req, res) => {
+  res.send("<h1>hello users</h1>");
+});
