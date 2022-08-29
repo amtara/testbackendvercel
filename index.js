@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send({
+  res.json({
     user: "maka",
     age: 24,
   });
