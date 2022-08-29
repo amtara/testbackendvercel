@@ -25,6 +25,3 @@ app.get("/", (req, res) => {
     },
   ];
 });
-app.get("/users", (req, res) => {
-  res.send("hello world user");
-});
